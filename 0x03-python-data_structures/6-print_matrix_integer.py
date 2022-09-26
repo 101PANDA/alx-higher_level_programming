@@ -8,7 +8,7 @@ def print_matrix_integer(matrix=[]):
     i = 0
 
     for q in range(v_len):
-        h_len, j = len(matrix[i]) , 0
+        h_len, j = len(matrix[i]), 0
 
         for w in range(h_len):
 
