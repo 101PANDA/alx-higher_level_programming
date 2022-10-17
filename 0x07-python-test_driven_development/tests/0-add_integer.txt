@@ -1,0 +1,36 @@
+0-add_integer doc test
+----------------------
+
+>>> addint = __import__('0-add_integer').add_integer
+>>> addint(1, 2)
+3
+
+>>> addint(100, -2)
+98
+
+>>> addint(2)
+100
+
+>>> addint(100.3, -2)
+98
+
+>>> addint(4, "school")
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+
+>>> addint(None)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> addint(unknown)
+Traceback (most recent call last):
+...
+NameError: name 'unknown' is not defined
+
+>>> a = [2]
+>>> addint(a)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
