@@ -65,3 +65,29 @@ class Rectangle:
         else:
             result = 2 * (self.__height + self.__width)
         return (result)
+
+
+    def __str__(self):
+        """returns the printable representation of rectangle
+        uses # to represent it
+        """
+
+        if (self.__height == 0) or (self.__width == 0):
+            return ""
+        else:
+            rect = ""
+            for x in range(self.__height):
+                for i in range(self.__width):
+                    rect = rect + "#"
+                if x != (self.__height - 1):
+                    rect = rect + "\n"
+            return rect
+
+    def __repr__(self):
+        """return the string representation of the Rectangle"""
+        func = "Rectangle(" + str(self.__width)
+        func += ", " + str(self.__height) + ")"
+        return func
+
+    def __del__(self):
+        print("Bye rectangle...".format())
