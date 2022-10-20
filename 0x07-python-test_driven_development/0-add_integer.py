@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+"""adds two int"""
+
 def add_integer(a, b=98):
 
     """
