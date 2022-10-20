@@ -2,9 +2,9 @@
 
 """defining a class rectangle"""
 
+
 class Rectangle:
     """a class rectangle"""
-
 
     def __init__(self, width=0, height=0):
         """initializing a rectangle
@@ -45,7 +45,6 @@ class Rectangle:
             raise ValueError("height must be >= 0")
         self.__height = value
 
-
     def area(self):
         """returns the area of a rectangle
         formula:
@@ -65,7 +64,6 @@ class Rectangle:
         else:
             result = 2 * (self.__height + self.__width)
         return (result)
-
 
     def __str__(self):
         """returns the printable representation of rectangle

@@ -2,9 +2,9 @@
 
 """defining a class rectangle"""
 
+
 class Rectangle:
     """a class rectangle"""
-
 
     def __init__(self, width=0, height=0):
         """initializing a rectangle
