@@ -1,3 +1,2 @@
 #!/bin/bash
-#executing this script will run the python script saved in PYFILE
 python3 $PYFILE
