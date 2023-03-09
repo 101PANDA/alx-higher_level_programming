@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Import calculator_1 and run some calculation"""
+"""Import calculator and run some calculation"""
 if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
     a = 10
