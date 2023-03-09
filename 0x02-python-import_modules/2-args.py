@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-""" print and list outall arguments"""
+""" print and list outall arguments parsed"""
 
 
 if __name__ == "__main__":
