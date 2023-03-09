@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Import calculator_1 and run some calculation"""
 if __name__ == "__main__":
     import calculator_1 as cal
     a = 10
